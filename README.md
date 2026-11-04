@@ -2,7 +2,7 @@
 
 An optional iOS domain switch adapter distributed through Swift Package Manager.
 The adapter package depends on the `SmartdigimktCNSDK` product from
-`SmartdigimktCNSDK_SPM`, supporting SDK versions from `6.0.0`
+`SmartdigimktCNSDK_SPM`, supporting SDK versions from `6.0.1`
 through `999.0.0` (inclusive).
 
 ## Requirements
@@ -21,11 +21,11 @@ through `999.0.0` (inclusive).
    https://github.com/kuying-ads/kuyingDomainSwitchAdapter_Spm.git
    ```
 
-3. Select the exact version `6.0.0`.
+3. Select the exact version `6.0.1`.
 4. Add the `SmartdigimktCNDomainSwitchAdapter` product to the app target.
 5. Add `-ObjC` to the app target's **Other Linker Flags**.
 
-The package resolves `SmartdigimktCNSDK_SPM` within `"6.0.0"..."999.0.0"`
+The package resolves `SmartdigimktCNSDK_SPM` within `"6.0.1"..."999.0.0"`
 and uses its `SmartdigimktCNSDK` product as the adapter dependency.
 
 ### Package.swift
@@ -34,7 +34,7 @@ and uses its `SmartdigimktCNSDK` product as the adapter dependency.
 dependencies: [
     .package(
         url: "https://github.com/kuying-ads/kuyingDomainSwitchAdapter_Spm.git",
-        exact: "6.0.0"
+        exact: "6.0.1"
     )
 ]
 ```
